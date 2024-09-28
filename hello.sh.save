@@ -1,0 +1,19 @@
+#!/bin/bash
+name=$(whoami)
+echo "color skin please: "
+read skin
+date=$(date)
+location=$(pwd)
+#echo " what is your name: "
+#read name
+echo "hello $name "
+sleep 2
+echo "today it look like $date it looks sunny i guess !!!"
+sleep 1
+echo "i think the directory $location good for $skin"
+sleep 1
+echo "hello $name"
+echo "$pwd////$shell////$random/////$user /////$whoami"
+echo $name
+export name #make the variable out file
+echo ((1 + 2)) 
